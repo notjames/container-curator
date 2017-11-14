@@ -16,7 +16,8 @@ variables:
   image_name: curator-container
   quay_org: samsung_cnct
   robot_account: curator_container_rw
-  QUAY_PASSWORD: SECRET
+# Create a Gitlab Secret Variable called QUAY_PASSWORD and assign it the value of the Quay robot docker login password.
+# DO NOT PASTE THIS PASSWORD HERE.
 
 stages:
   - build
