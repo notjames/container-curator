@@ -67,3 +67,5 @@ publish-version-tag:
   # A tag push to master will be pushed to Quay with that tag
   - docker tag ${IMAGE_PROD_NAME} ${registry}/${quay_org}/${image_name}:$CI_COMMIT_TAG
   - docker push ${registry}/${quay_org}/${image_name}:$CI_COMMIT_TAG
+
+  #test commit
